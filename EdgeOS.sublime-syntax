@@ -1,0 +1,121 @@
+%YAML 1.2
+---
+name: EdgeOS
+file_extensions:
+  - boot
+scope: source.edgeos
+variables:
+  section: firewall|interfaces|load-balance|policy|port-forward|protocols|service|system|traffic-control|traffic-policy|vpn|zone-policy
+  property: action|address|address-group|all-ping|authentication|authoritative|authorization|bcast-relay|broadcast-ping|community|contact|default-action|default-router|description|destination|dhcp-server|disable-password-authentication|disabled|dns-server|domain-name|dpi|duplex|enable-default-log|encrypted-password|established|ethernet|export|facility|firewall|forwarding|from|full-name|global|gre|group|gui|host-name|hostfile-update|http-port|https-port|hwnat|id|inbound-interface|inside-address|interface|invalid|ip-address|ip-src-route|ipv4|ipv6-receive-redirects|ipv6-src-route|lease|level|location|log|log-martians|login|loopback|mac-address|mtu|name|name-server|nat|network|ntp|ntp-server|offload|older-ciphers|outbound-interface|outside-address|plaintext-password|port|port-group|pppoe|protocol|protocol-version|public-keys|related|rule|server|shared-network-name|snmp|source|speed|ssh|state|static-mapping|subnet|syslog|telnet|time-zone|traffic-analysis|type|ubnt-discover|unifi-controller|use-dnsmasq|user|vif|vlan|zone
+  property_unsorted: 6rd-default-gw|6rd-prefix|6rd-relay_prefix|abr-type|absolute|ac-group|access-concentrator|access-list|access-list6|ack-wait-timeout|acl|activate|address-family|address-range|admin-down|admin-group|administrative|advanced-queue|advertise|advertise-interval|advertise-labels|advertisement-interval|advertisement-mode|affinity|agent-address|agentid|aggregate|aggregate-address|aggregator|agi|aging|alias|all-interfaces|all-ping6rd-prefix|all-servers|allow-category|allow-ipaddr-url|allow-nat-networks|allow-public-networks|allow-root|allowas-in|allowed-network|alt-subnet|altitude|always|always-compare-med|any|append-domain|applejuice|application|archive|area|area-type|arguments|arp|arp-monitor|as|as-path|as-path-list|as-path-prepend|as-set|atomic-aggregate|attach-to|attribute-unchanged|auth|auto-cost|auto-firewall|auto-firewall-nat-exclude|auto-sync|auto-update|autoconf|autonomous-flag|average-packet|backdoor|backup|bandwidth|bandwidth-constraint|banner|bestpath|bfd|bgp|bidirectional|bind|bit|bit-rate|bittorrent|blackhole|blacklist|block-category|bogus-priv|bond-group|bonding|bootfile-name|bootfile-server|both|branch|break-before-make|bridge|bridge-group|bridged-conntrack|bundle-send|burst|burst-rate|burst-size|ca-cert-file|ca-file|ca-type|ca-value|cache-size|call|capability|category|cdp|ceiling|cert-file|civic-based|class|class-to-exp|class-to-exp-bit|class-type|client|client-ip-pool|client-option|client-prefix-length|close|close-wait|cluster-id|code|comm-list|commit-archive|commit-revisions|community-list|compare-routerid|components|compression|confed|confederation|config-file|config-management|connect|connect-on-demand|connected|connection-type|connmark|conntrack|conservative|console|constraint|content-inspection|continue|control-mode|control-word|controlled-load|coordinate-based|cost|count|country-code|crl-file|crontab-spec|cspf|cspf-retry-limit|cspf-retry-timer|cur-hop-limit|custom|custom-attribute|custom-category|dampening|datum|days|db-summary-opt|dead-interval|dead-peer-detection|debug|dedicated-one-plus-one|dedicated-one-to-one|default|default-cost|default-distance|default-esp-group|default-information|default-information-originate|default-interim-interval|default-lifetime|default-metric|default-originate|default-port|default-preference|default-retry-interval|default-route|default-route-distance|delay|delete|demand-mode|dest|dest-addr|dest-port|destination-port|destination-subnet|destroy|detail|deterministic-med|device|device-type|dh-file|dh-group|dhcp|dhcp-interface|dhcp-options|dhcp-relay|dhcpd|dhcpv6-client|dhcpv6-options|dhcpv6-pd|dhcpv6-relay|dhcpv6-server|direcconnect|directconnect|direction|disable-all-interfaces|disable-better-protection|disable-capability-negotiation|disable-connected-check|disable-flow-control|disable-forwarding|disable-host-validation|disable-igp-shortcut|disable-link-detect|disable-memory-table|disable-network-import-check|disable-quickleave|disable-send-community|disable-transparent|disable-uniqreqids|disableconnected-check|distance|distribute-list|distribution|dns|dns-servers|domain|domain-block|domain-needed|domain-noncache|domain-search|down|download|downstream|downstream-on-demand|downstream-unsolicited|drop-tail|dscp|duid|dummy|dup-addr-detect-transmits|dynamic|dynamic-dns-update|ebgp|ebgp-multihop|echo|ecn|edonkey|edp|egress|egress-qos|egress-ttl|ehanced|elin|elsp-preconfigured|elsp-signaled|enable-access-log|enable-all-interfaces|enable-better-protection|enable-egress|enable-igp-shortcut|enable-indirect-media|enable-indirect-signalling|enable-proxy-arp|enable-ra|enable-safe-search|encapsulation|encrypted-key|encryption|end_range|enforce-first-as|engine-id|engineid|err|esp-group|eth|ether|eui64|exact-match|except-interface|exclude|exclude-any|executable|expand-hosts|expect-table-size|expiry-interval|explicit-label|explicit-null|export-list|ext-tunnel-id|extended|external|external-port|extra-traffic|failover|failover-only|failure|failure-count|fair-queue|fall-over|fault|fdp|fec|fib-entry|file|files|filter|filter-list|filters|fin-wait|fixed|flags|flow-accounting|flow-generic|flows|for|for-acl|force-encapsulation|forward|forward-to|forwarding-delay|fq-codel|fq-quantum|fragment|fragmentation|ftn-entry|ftp|garbage-collection|gateway-address|ge|global-merge-capability|global-parameters|gmpls|gmpls-label-set|gnutella|goto|gpid|graceful-restart|group-id|groupname|gtsm|guaranteed|gw|h323|hairpin-nat|half-life|half-open-connections|half-openconnections|half-time|hardware|hash|hash-interval|hash-policy|hash-size|hdlc|hello-interval|hello-receipt|hello-source-address|hello-time|hello-timeout|hfq|hold-priority|hold-time|holddown-timer|holdtime|home-directory|hop-count|hop-limit|hops|host|host-address|host-identifier|htb-quantum|hwaddr|ibgp|icmpv6|identifier|idle-timeout|ifmtu|igmp-proxy|ignore|ike-group|ike-lifetime|ikev1|ikev2-reauth|ilm-entry|import|import-bgp-routes|import-list|in|in-label|inbound|include|include-any|include-ipsec-conf|include-ipsec-secrets|independent|inet|ingress|ingress-capture|ingress-ttl|initial-delay|initial-holdtime|input|instance|instance-id|int|inter-area|interface-route|interface-route6|interface-type|interfaces|internal|interval|intra-area|inverse-mask|ip|ip-forwarding|ip-next-hop|ipsec|ipsec-interfaces|ipsec-settings|ipv4-unicast|ipv4mask|ipv6|ipv6-address|ipv6-address-group|ipv6-enable|ipv6-icmp|ipv6-modify|ipv6-name|ipv6-network|ipv6-network-group|ipv6-next-hop|ipv6-tunnel|ipv6-unicast|ipv6mask|isis|kazaa|keep-multiplier|keepalive|keepalive-interval|keepalive-timeout|kernel|key|key-exchange|key-file|key-id|l2-circuit|l2-circuit-fib-entry|l2tp|l2tpv3|l2vpn|label-record|label-retention-mode|label-space|label-switching|labelspace|lan-interface|last-ack|latency|latitude|lb-group|lb-local|ldp|ldp-igp|ldp-optimization|le|leaf|learning|lease-time|least-fill|legacy-protocols|liberal|lifetime|limit|limiter|link|link-id|link-mtu|listen-address|listen-interface|listen-on|listen-port|listen-vlan|lldp|llsp|load-balance|local|local-address|local-as|local-block|local-block-keyword|local-block-url|local-host|local-identifier|local-ip|local-key|local-ok|local-ok-url|local-packet-handling|local-port|local-pref|local-preference|local-protection|local-users|local-zon|local-zone|localise-queries|log-adjacency-changes|log-level|log-modes|log-neighbor-changes|logging|longitude|loop-detection|loop-detection-hop-count|loop-detection-path-vec-count|loose|lsp-metric|lsp-model|lsp-tunneling|mac|main|make-before-break|managed-flag|management-address|manual|map|map-route|mark|mark-probability|mask|master|match|match-frag|match-ipsec|match-non-frag|match-none|max|max-active-life|max-age|max-concurrent-dd|max-connections|max-holdtime|max-hop-count|max-interval|max-label-value|max-metric|max-pdu-length|max-rate|max-recovery|max-retrans|max-size|max-suppress-time|maxconnections|maximum|maximum-object-size|maximum-paths|maximum-prefix|maximum-threshold|md5|md5-key|med|mem-cache-size|merge-capable|message-ack|metric|metric-type|min|min-interval|min-label-value|minimum|minimum-object-size|minimum-threshold|minrx|mirror|missing-as-worst|mode|modify|modules|monthdays|most-fill|mpls|mpls-te|ms-pw|ms-pw-stitch|mss|mss-clamp|mss-clamp6|mtu-ignore|multicast|multicast-hellos|multihop|multihop-peer|multilink|multiplier|nat-networks|nat-pmp|nat-traversal|neighbor|neighbor-liveness|netflow|network-delay|network-distance|network-emulator|network-fec|network-group|new|next|next-hop|next-hop-interface|nexthop|nexthop-local|nexthop-self|nfs|nis-domain|nis-server|nisplus-domain|nisplus-server|no-activate|no-affinity|no-client-to-client-reflection|no-dns|no-fast-external-failover|no-ipv4-unicast|no-php|no-prepend|no-record|no-redistribution|no-summary|no-update|node.tag|non-free|non-IANA-hello|non-merge-capable|non-persistent|none|normal|noselect|not-advertise|notice|notification|nssa|ntpserver|number|off-delay|oid|on-link-flag|on-match|on-shutdown|on-startup|ondemand|opaque-lsa|openvpn|openvpn-option|options|ordered|orf|orig|origin|original-port|originate|originator-id|ospf|ospfv3|other|other-config-flag|out|out-interface|out-label|output|outside-nexthop|override-capability|override-diffserv|override-hostname-ip|p2p|package|packet|packet-corruption|packet-loss|packet-reordering|parameters|parameters-only|parent|passive|passive-interface|passive-interface-exclude|password|password-type|path|path-limit|pbb-te|pd|peer|peer-acl|peer-address|peer-group|peer-session-id|peer-tunnel-id|peers|pfifo|pfs|ping|pipe|plaintext-key|poe|poison-reverse|policy|poll-interval|pop|pop-server|port-forward|post-login|ppp|pppoe-server|pptp|pptp-client|pre-login|pre-shared-secret|precedence|preempt|preempt-delay|prefer|preference|preferred-lifetime|prefix|prefix-delegation|prefix-id|prefix-length|prefix-list|prefix-list6|prefix-only|preprogram-suggested-label|primary|priority|priority-queue|privacy|probability|promiscuous|propagate-release|propagate-ttl|proposal|protection|proto|proxy-arp-pvlan|proxy-bypass|proxy-bypass-source|psc-1|psc-2|psc-3|psc-4|pseudo-ethernet|push-route|pvid|pw-status-tlv|qos|quantum|queue|queue-limit|queue-type|radius|radius-server|radvd-options|random|random-detect|range|rapid-commit|rate|rate-control|rd|re-use|reachable-time|reboot-on-panic|receive|receive-redirects|recent|record|recovery-time|redirect|redirect-url|redistribute|reference-bandwidth|reflector|refresh|refresh-path-parsing|refresh-reduction|refresh-resv-parsing|refresh-time|regex|relative|relay-agents-packets|relay-options|remote|remote-access|remote-address|remote-as|remote-host|remote-id|remote-identifier|remote-ip|remote-port|remove-private-as|repeater|replace-default-route|reply-block-mime|reply-body-max-size|repository|request-retry|request-retry-timeout|require|require-mppe|reservable|reservable-bandwidth|restart-time|restore-mark|retrans-timer|retransmit-interval|retry-limit|retry-timer|reuse-route|reuse-route-record|reverse|revertive|rfc1583-compatibility|rfc2136|rip|ripng|role|root|round-robin|route|route-map|route-reflector-client|route-server-client|route-source|route-target|route-test|route6|router|router-address|router-advert|router-id|router-lsa|rsa-key|rsa-key-name|rsa-keys|rsvp|rsvp-trunk-restart|run-transition-scripts|saii|sampling-rate|save-mark|scan-time|script|seclevel|second|secondary|secret|secure-mode|send|send-advert|send-redirects|server-1|server-2|server-cert-file|server-identifier|server-ip|server-key-file|server-key-password|service|service-name|session|session-id|set|set-dscp|set-mark|setup-priority|sflow|sfp-exp-delay|sfq|sha1|shaper|shared|shared-explicit|shared-network-parameters|shared-secret-key-file|shortcut|shutdown|signaling|signature-update|sip|sip-server-address|sip-server-name|site-to-site|size|slow-timer|smart-queue|smp_affinity|smtp-server|sntp-server|soft-reconfiguration|sonmp|source-addr|source-group|source-port|source-validation|spf|split-horizon|spoke-vc|sqlnet|squidguard|ssh-rsa|stability-interval|stalepath-time|standard|standby|start|start-delay|start-suppress-time|start_range|startdate|starttime|static|static-host-mapping|static-ip|static-mapping-parameters|static-route|statistic|status|sticky|stop|stopdate|stoptime|stp|stream|strict|strict-capability-match|strict-dad|strict-hop|strict-order|stub|subnet-mask|subnet-parameters|substitute|success|summary-address|summary-only|sup-route|support-diffserv-class|swap|switch|switch-port|syn-cookies|syn-received|syn-recv|syn-sent|sync|sync-delay|sync-group|syslog-facility|system|table|table-size|tag|taii|target|targeted-peer|targeted-peer-hello-interval|targeted-peer-hold-time|task|task-scheduler|tcp-fin|tcp-generic|tcp-mss|tcp-rst|te|te-class|temperature|temporary|tftp|tftp-server-name|threshold|throttle|tie-break|time|time-offset|time-period|time-server|time-wait|timeout|timers|tls|to|topology|tos|traffic|traffic-control|traffic-engineering|traffic-policy|transition-script|translate|transmit-delay|transport|transport-address|trap-source|trap-target|trunk|tsm|tsm-key|ttl|ttl-security|tun|tunnel|tunnel-id|type-name|unchanged|unidirectional|unnumbered|unprotected|unsuppress-map|up|update|update-hour|update-source|update-type|update_blacklists|upload|upnp|upnp2|upstream|upstream-interface|url|url-filtering|use-interface-id-option|user-id|username|utc|v2|v3|valid-lifetime|value|vc-mode|vc1|vc2|ve-id|ve-range|version|view|virtual-address|virtual-link|vlan-aware|vlan-instance|vpls|vpls-ac-group|vpls-description|vpls-mtu|vpls-peer|vpls-type|vpls-vc|vpn|vrf|vrrp|vrrp-group|vti|wan|wan-interface|watchdog|web|web-skip|webproxy|weekdays|weight|whitelist|wins-server|wins-servers|wirelessmodem|word|wpad-url|x509|zone-policy
+  property_value: accept|administrator|all|auto|debug|destination|disable|drop|enable|icmp|masquerade|normal|notice|protocols|reject|source|tcp|tcp_udp|udp
+  boolean_value: false|off|on|true
+  identifier: '[[:alnum:]_-]+'
+  ipv4_addr: (?:[[:digit:]]{1,3}\.){3}[[:digit:]]{1,3}
+  ipv6cs1: '[[:digit:]A-Fa-f]{1,4}'
+  ipv6cs2: 25[0-5]|2[0-4]d|1dd|[1-9]?d
+  ipv6_addr: (?:(?:{{ipv6cs1}}:){7}(?:{{ipv6cs1}}|:))|(?:(?:{{ipv6cs1}}:){6}(?::{{ipv6cs1}}|(?:(?:{{ipv6cs2}})(?:\.(?:{{ipv6cs2}})){3})|:))|(?:(?:{{ipv6cs1}}:){5}(?:(?:(?::{{ipv6cs1}}){1,2})|:(?:(?:{{ipv6cs2}})(?:\.(?:{{ipv6cs2}})){3})|:))|(?:(?:{{ipv6cs1}}:){4}(?:(?:(?::{{ipv6cs1}}){1,3})|(?:(?::{{ipv6cs1}})?:(?:(?:{{ipv6cs2}})(?:\.(?:{{ipv6cs2}})){3}))|:))|(?:(?:{{ipv6cs1}}:){3}(?:(?:(?::{{ipv6cs1}}){1,4})|(?:(?::{{ipv6cs1}}){0,2}:(?:(?:{{ipv6cs2}})(?:\.(?:{{ipv6cs2}})){3}))|:))|(?:(?:{{ipv6cs1}}:){2}(?:(?:(?::{{ipv6cs1}}){1,5})|(?:(?::{{ipv6cs1}}){0,3}:(?:(?:{{ipv6cs2}})(?:\.(?:{{ipv6cs2}})){3}))|:))|(?:(?:{{ipv6cs1}}:){1}(?:(?:(?::{{ipv6cs1}}){1,6})|(?:(?::{{ipv6cs1}}){0,4}:(?:(?:{{ipv6cs2}})(?:\.(?:{{ipv6cs2}})){3}))|:))|(?::(?:(?:(?::{{ipv6cs1}}){1,7})|(?:(?::{{ipv6cs1}}){0,5}:(?:(?:{{ipv6cs2}})(?:\.(?:{{ipv6cs2}})){3}))|:))
+  space_block_comment_eol: \s+|\s*(?=\{|/\*|$)
+
+contexts:
+  main:
+    - include: comments
+    - include: section-block
+
+  section-block:
+    - match: ({{section}})\s*(?=\{)
+      captures:
+        1: entity.name.section.edgeos
+        2: punctuation.section.block.begin.edgeos
+      push:
+        - include: block
+        - match: (?=.)
+          pop: true
+
+  expressions:
+    - include: comments
+    - include: property
+    - include: block
+
+  comments:
+    - match: /\*
+      scope: punctuation.definition.comment.begin.edgeos
+      push:
+        - meta_scope: comment.block.edgeos
+        - match: \*/
+          scope: punctuation.definition.comment.end.edgeos
+          pop: true
+    - match: \*/
+      scope: invalid.illegal.stray-comment-end.edgeos
+
+  block:
+    - match: \{
+      scope: punctuation.section.block.begin.edgeos
+      push:
+        - meta_scope: meta.block.edgeos
+        - match: \}
+          scope: punctuation.section.block.end.edgeos
+          pop: true
+        - include: expressions
+    - match: \}
+      scope: invalid.illegal.stray-bracket-end.edgeos
+
+  property:
+    - match: '^\s+(?:({{property}}|{{property_unsorted}})|({{identifier}}))(?:{{space_block_comment_eol}})'
+      captures:
+        1: entity.name.tag.edgeos
+        2: entity.other.attribute-name.edgeos # bad scope choice, but used to identify non-builtin property names
+      push:
+        - match: (?=\s|\{|/\*|$)
+          pop: true
+        - include: value
+    - match: '[^\s\{]+?(?=\s|\{|/\*|$)'
+      scope: invalid.illegal.property-value.edgeos
+
+  value:
+    - include: value-builtin
+    - include: value-mac
+    - include: value-ip
+    - include: value-number
+    - include: value-string
+
+  value-builtin:
+    - match: '(?:{{property_value}})(?:{{space_block_comment_eol}})'
+      scope: keyword.other.edgeos
+    - match: '(?:{{boolean_value}})(?:{{space_block_comment_eol}})'
+      scope: constant.language.boolean.edgeos
+
+  value-ip:
+    - match: ({{ipv4_addr}})(?:(/)([[:digit:]]|[1-2][[:digit:]]|3[0-2]))?(?:{{space_block_comment_eol}})
+      captures:
+        1: constant.numeric.integer.edgeos
+        2: punctuation.separator.ip.mask.edgeos
+        3: constant.numeric.integer.edgeos
+    - match: ({{ipv6_addr}})(?:(%)([[:alnum:]]+))?(?:(/)([[:digit:]]|[1-9][[:digit:]]|1[0-1][[:digit:]]|12[0-8]))?(?:{{space_block_comment_eol}})
+      captures:
+        1: constant.numeric.integer.long.hex.edgeos
+        2: punctuation.separator.ip.ipv6.zone.edgeos
+        3: entity.other.attribute-name.edgeos
+        4: punctuation.separator.ip.mask.edgeos
+        5: constant.numeric.integer.edgeos
+
+  value-mac:
+    - match: '[[:xdigit:]]{2}(?::[[:xdigit:]]{2}){5}(?:{{space_block_comment_eol}})'
+      scope: constant.numeric.hex.edgeos
+
+  value-number:
+    - match: '[[:digit:]]+(?:\.[[:digit:]]+)+(?:{{space_block_comment_eol}})'
+      scope: constant.numeric.float.edgeos
+    - match: '[[:digit:]]+(?:{{space_block_comment_eol}})'
+      scope: constant.numeric.integer.edgeos
+
+  value-string:
+    - match: \"
+      scope: punctuation.definition.string.begin.edgeos
+      push:
+        - meta_scope: string.quoted.double.edgeos
+        - match: \"
+          scope: punctuation.definition.string.end.edgeos
+          pop: true
+    - match: '[^\s\{]+(?:{{space_block_comment_eol}})'
+      scope: string.unquoted.edgeos
