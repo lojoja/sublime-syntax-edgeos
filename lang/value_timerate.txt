@@ -1,0 +1,11 @@
+d
+day
+h
+hour
+m
+minute
+ms
+s
+second
+secs
+us

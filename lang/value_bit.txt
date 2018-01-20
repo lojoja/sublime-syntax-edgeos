@@ -1,0 +1,13 @@
+b
+g
+gb
+gbit
+gbps
+k
+kb
+kbit
+kbps
+m
+mb
+mbit
+mbps

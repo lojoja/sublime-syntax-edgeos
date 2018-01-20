@@ -1,0 +1,8 @@
+disable
+enable
+false
+no
+off
+on
+true
+yes
