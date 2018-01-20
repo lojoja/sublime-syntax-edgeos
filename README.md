@@ -1,11 +1,17 @@
 SublimeEdgeOS
 =============
 
-*Version 1.0.0*
+*Version 1.1.0*
 
 [Sublime Text](https://www.sublimetext.com) syntax definitions for EdgeMax EdgeOS.
 
 To manage this package with [Package Control](https://packagecontrol.io), add the [lojoja pcrepo](https://github.com/lojoja/sublime-pcrepo).
+
+
+Requirements
+------------
+
+- Sublime Text 3 build 3048+
 
 
 Installation
@@ -13,8 +19,11 @@ Installation
 
 ### Package Control
 1. Open the Sublime Text Command Palette
-2. Select `Package Control: Install Package`
-3. Search for `EdgeOS`
+2. Select `Package Control: Add Repository`
+3. Enter the URL: `https://raw.githubusercontent.com/lojoja/sublime-pcrepo/master/repository.json`
+4. Open the Sublime Text Command Palette
+5. Select `Package Control: Install Package`
+6. Search for `EdgeOS`
 
 
 ### Git
@@ -31,10 +40,13 @@ Installation
 5. Copy the `EdgeOS` folder to the `Packages` directory
 
 
-ToDo
-----
+Example
+-------
 
-- Categorize [Unsorted words](./lang/unsorted.txt) as properties or values
+![Light](https://raw.github.com/lojoja/sublime-syntax-edgeos/master/_screenshot_light.png)
+![Dark](https://raw.github.com/lojoja/sublime-syntax-edgeos/master/_screenshot_dark.png)
+
+Light color scheme is `lojojaBright`. Dark color scheme is `lojojaDarkBright`. Both are available in the [lojojaColors](https://github.com/lojoja/sublime-lojoja-colors/) package.
 
 
 License
