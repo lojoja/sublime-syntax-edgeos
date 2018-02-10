@@ -29,6 +29,10 @@ firewall {
 /*               ^ keyword.operator.edgeos */
 /*                ^^^^ keyword.other.interface.edgeos */
 
+    iface eth0.1
+/*  ^^^^^ entity.other.attribute-name.edgeos */
+/*        ^^^^^^ keyword.other.interface.edgeos */
+
     protocol tcp
 /*  ^^^^^^^^ entity.name.tag.edgeos */
 /*           ^^^ keyword.other.protocol.edgeos */
