@@ -5,13 +5,11 @@ SublimeEdgeOS
 
 [Sublime Text](https://www.sublimetext.com) syntax definitions for EdgeMax EdgeOS.
 
-To manage this package with [Package Control](https://packagecontrol.io), add the [lojoja pcrepo](https://github.com/lojoja/sublime-pcrepo).
-
 
 Requirements
 ------------
 
-- Sublime Text 3 build 3048+
+- Sublime Text 3 build 3092+
 
 
 Installation
