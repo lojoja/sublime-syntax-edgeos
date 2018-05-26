@@ -237,6 +237,7 @@ disable-better-protection
 disable-capability-negotiation
 disable-connected-check
 disable-flow-control
+disable-flow-flushing-upon-fib-changes
 disable-forwarding
 disable-host-validation
 disable-igp-shortcut
@@ -351,6 +352,7 @@ flags
 flow-accounting
 flow-accounting-ipt
 flow-generic
+flow-lifetime
 flows
 for
 for-acl
