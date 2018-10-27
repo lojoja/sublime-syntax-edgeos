@@ -39,6 +39,7 @@ all
 all-interfaces
 all-ping
 allow-category
+allow-ip
 allow-ipaddr-url
 allow-nat-networks
 allow-public-networks
@@ -1037,6 +1038,7 @@ summary-address
 summary-only
 sup-route
 support-diffserv-class
+suspend
 swap
 switch
 switch-port
@@ -1131,6 +1133,7 @@ use-dnsmasq
 use-interface-id-option
 user
 user-id
+user-ip
 username
 utc
 v3
