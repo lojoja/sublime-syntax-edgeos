@@ -49,6 +49,7 @@ chap
 chd
 cisco
 clear
+cli-shell-api
 client
 communication-prohibited
 connected
@@ -102,7 +103,9 @@ dst-ip
 dst-mac
 dst-port
 dyndns
+eap
 easydns
+ecdsa
 ecdsa-sha2-nistp256
 ecdsa-sha2-nistp384
 ecdsa-sha2-nistp521
@@ -112,16 +115,19 @@ emerg
 enc
 encrypted-key
 err
+esp-group
 fair-queue
 FIN
 flash
 flash-override
 flows
+force
 forever
 forward
 fragmentation-needed
 Fri
 Full
+global
 Half
 high
 hold
@@ -133,7 +139,10 @@ host-unreachable
 ibm
 ike
 ikev1
+ikev1-hybrid
+ikev1-xauth
 ikev2
+ikev2-mobike
 imc
 immediate
 imv
@@ -143,6 +152,7 @@ info
 inform
 internet
 ip-header-bad
+ipsec
 job
 kern
 kernel
@@ -155,6 +165,7 @@ layer2+3
 layer3+4
 least-fill
 lib
+listActiveNodes
 local
 local-AS
 local0
@@ -206,9 +217,11 @@ no-route
 no-update
 noip
 non-broadcast
+none
 normal
 notice
 nssa
+null
 operator
 out-intf
 packet-too-big
@@ -239,6 +252,8 @@ protocols
 PSH
 pthru
 pts
+queues
+radius
 random
 random-detect
 rarp
@@ -253,6 +268,7 @@ ro
 round-robin
 router-advertisement
 router-solicitation
+rsa
 RST
 rw
 Sat
@@ -327,6 +343,8 @@ URG
 user
 v1
 v2
+volatile none
+vpn
 warning
 Wed
 weekdays
