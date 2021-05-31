@@ -1,7 +1,7 @@
 SublimeEdgeOS
 =============
 
-*Version 1.1.4*
+*Version 1.1.5*
 
 [Sublime Text](https://www.sublimetext.com) syntax definitions for EdgeMax EdgeOS.
 
