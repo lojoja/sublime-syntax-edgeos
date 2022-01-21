@@ -1,5 +1,6 @@
 !*
 *.DS_Store
+*.sublime-workspace
 ._*
 config-template
 lang/config
