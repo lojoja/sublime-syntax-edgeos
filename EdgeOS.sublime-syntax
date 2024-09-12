@@ -6,11 +6,11 @@ file_extensions:
 scope: source.edgeos
 variables:
   # base
-  identifier: '[[:alnum:]_-]+'
+  identifier: "[[:alnum:]_-]+"
   break: \s+|\s*(?=\{|/\*|$)
   # ip
   ipv4_addr: (?:[[:digit:]]{1,3}\.){3}[[:digit:]]{1,3}
-  ipv6cs1: '[[:digit:]A-Fa-f]{1,4}'
+  ipv6cs1: "[[:digit:]A-Fa-f]{1,4}"
   ipv6cs2: 25[0-5]|2[0-4]d|1dd|[1-9]?d
   ipv6_addr: (?:(?:{{ipv6cs1}}:){7}(?:{{ipv6cs1}}|:))|(?:(?:{{ipv6cs1}}:){6}(?::{{ipv6cs1}}|(?:(?:{{ipv6cs2}})(?:\.(?:{{ipv6cs2}})){3})|:))|(?:(?:{{ipv6cs1}}:){5}(?:(?:(?::{{ipv6cs1}}){1,2})|:(?:(?:{{ipv6cs2}})(?:\.(?:{{ipv6cs2}})){3})|:))|(?:(?:{{ipv6cs1}}:){4}(?:(?:(?::{{ipv6cs1}}){1,3})|(?:(?::{{ipv6cs1}})?:(?:(?:{{ipv6cs2}})(?:\.(?:{{ipv6cs2}})){3}))|:))|(?:(?:{{ipv6cs1}}:){3}(?:(?:(?::{{ipv6cs1}}){1,4})|(?:(?::{{ipv6cs1}}){0,2}:(?:(?:{{ipv6cs2}})(?:\.(?:{{ipv6cs2}})){3}))|:))|(?:(?:{{ipv6cs1}}:){2}(?:(?:(?::{{ipv6cs1}}){1,5})|(?:(?::{{ipv6cs1}}){0,3}:(?:(?:{{ipv6cs2}})(?:\.(?:{{ipv6cs2}})){3}))|:))|(?:(?:{{ipv6cs1}}:){1}(?:(?:(?::{{ipv6cs1}}){1,6})|(?:(?::{{ipv6cs1}}){0,4}:(?:(?:{{ipv6cs2}})(?:\.(?:{{ipv6cs2}})){3}))|:))|(?::(?:(?:(?::{{ipv6cs1}}){1,7})|(?:(?::{{ipv6cs1}}){0,5}:(?:(?:{{ipv6cs2}})(?:\.(?:{{ipv6cs2}})){3}))|:))
   # nodes
@@ -133,7 +133,7 @@ contexts:
         5: constant.numeric.integer.edgeos
 
   value-mac:
-    - match: '[[:xdigit:]]{2}(?::[[:xdigit:]]{2}){5}(?:{{break}})'
+    - match: "[[:xdigit:]]{2}(?::[[:xdigit:]]{2}){5}(?:{{break}})"
       scope: constant.numeric.hex.edgeos
 
   value-number:
