@@ -20,18 +20,70 @@ firewall {
     }
 /*  ^ punctuation.section.block.end.edgeos */
 
+    iface lo
+/*  ^^^^^ entity.other.attribute-name.edgeos */
+/*        ^^ keyword.other.interface.edgeos */
+
+    iface bond0
+/*  ^^^^^ entity.other.attribute-name.edgeos */
+/*        ^^^^^ keyword.other.interface.edgeos */
+
     iface eth0
 /*  ^^^^^ entity.other.attribute-name.edgeos */
 /*        ^^^^ keyword.other.interface.edgeos */
+
+    iface_negate !lo
+/*  ^^^^^^^^^^^^ entity.other.attribute-name.edgeos */
+/*               ^ keyword.operator.edgeos */
+/*                ^^ keyword.other.interface.edgeos */
+
+    iface_negate !bond0
+/*  ^^^^^^^^^^^^ entity.other.attribute-name.edgeos */
+/*               ^ keyword.operator.edgeos */
+/*                ^^^^^ keyword.other.interface.edgeos */
 
     iface_negate !eth0
 /*  ^^^^^^^^^^^^ entity.other.attribute-name.edgeos */
 /*               ^ keyword.operator.edgeos */
 /*                ^^^^ keyword.other.interface.edgeos */
 
-    iface eth0.1
-/*  ^^^^^ entity.other.attribute-name.edgeos */
-/*        ^^^^^^ keyword.other.interface.edgeos */
+    iface_virtual bond0.1
+/*  ^^^^^^^^^^^^^ entity.other.attribute-name.edgeos */
+/*                ^^^^^^^ keyword.other.interface.edgeos */
+
+    iface_virtual eth0.1
+/*  ^^^^^^^^^^^^^ entity.other.attribute-name.edgeos */
+/*                ^^^^^^ keyword.other.interface.edgeos */
+
+    iface_wildcard bond+
+/*  ^^^^^^^^^^^^^^ entity.other.attribute-name.edgeos */
+/*                 ^^^^ keyword.other.interface.edgeos */
+/*                     ^ keyword.operator.edgeos */
+
+    iface_wildcard bond0+
+/*  ^^^^^^^^^^^^^^ entity.other.attribute-name.edgeos */
+/*                 ^^^^^ keyword.other.interface.edgeos */
+/*                      ^ keyword.operator.edgeos */
+
+    iface_wildcard bond0.+
+/*  ^^^^^^^^^^^^^^ entity.other.attribute-name.edgeos */
+/*                 ^^^^^^ keyword.other.interface.edgeos */
+/*                       ^ keyword.operator.edgeos */
+
+    iface_wildcard eth+
+/*  ^^^^^^^^^^^^^^ entity.other.attribute-name.edgeos */
+/*                 ^^^ keyword.other.interface.edgeos */
+/*                    ^ keyword.operator.edgeos */
+
+    iface_wildcard eth0+
+/*  ^^^^^^^^^^^^^^ entity.other.attribute-name.edgeos */
+/*                 ^^^^ keyword.other.interface.edgeos */
+/*                     ^ keyword.operator.edgeos */
+
+    iface_wildcard eth0.+
+/*  ^^^^^^^^^^^^^^ entity.other.attribute-name.edgeos */
+/*                 ^^^^^ keyword.other.interface.edgeos */
+/*                      ^ keyword.operator.edgeos */
 
     protocol tcp
 /*  ^^^^^^^^ entity.name.tag.edgeos */
