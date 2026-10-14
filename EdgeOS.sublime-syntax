@@ -32,6 +32,8 @@ contexts:
   main:
     - include: comments
     - include: outer-node
+    - match: \}
+      scope: invalid.illegal.stray-bracket-end.edgeos
 
   expressions:
     - include: comments
