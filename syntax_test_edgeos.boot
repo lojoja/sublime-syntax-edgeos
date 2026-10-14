@@ -83,6 +83,10 @@ firewall {
 /*  ^^^^ entity.name.tag.edgeos */
 /*       ^^^^^^^^^^^^^^^^^^ constant.numeric.integer.long.hex.edgeos */
 
+    ipv6_embed_ipv4 ::ffff:192.168.0.10
+/*  ^^^^^^^^^^^^^^^ entity.other.attribute-name.edgeos */
+/*                  ^^^^^^^^^^^^^^^^^^^ constant.numeric.integer.long.hex.edgeos */
+
     ipv6_mask 2001:db8:abcd:0012::0/64
 /*  ^^^^^^^^^ entity.other.attribute-name.edgeos */
 /*            ^^^^^^^^^^^^^^^^^^^^^ constant.numeric.integer.long.hex.edgeos */
