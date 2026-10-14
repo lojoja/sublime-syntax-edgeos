@@ -75,7 +75,7 @@ firewall {
 
     ipv4_mask 192.168.0.0/24
 /*  ^^^^^^^^^ entity.other.attribute-name.edgeos */
-/*            ^^^^^^^^ constant.numeric.integer.edgeos */
+/*            ^^^^^^^^^^^ constant.numeric.integer.edgeos */
 /*                       ^ punctuation.separator.ip.mask.edgeos */
 /*                        ^^ constant.numeric.integer.edgeos */
 
