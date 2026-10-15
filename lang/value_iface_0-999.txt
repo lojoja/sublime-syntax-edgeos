@@ -10,4 +10,5 @@ tun
 v6tun
 vti
 vtun
+wg
 wlm

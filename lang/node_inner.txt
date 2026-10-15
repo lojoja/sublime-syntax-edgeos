@@ -48,6 +48,7 @@ allow-nat-networks
 allow-public-networks
 allow-root
 allowas-in
+allowed-ips
 allowed-network
 alt-subnet
 altitude
@@ -272,6 +273,7 @@ domain-name
 domain-noncache
 domain-search
 down
+down-command
 download
 downstream-on-demand
 downstream-unsolicited
@@ -313,6 +315,7 @@ encrypted-key
 encrypted-password
 encryption
 end_range
+endpoint
 enforce-first-as
 engine-id
 engineid
@@ -384,6 +387,7 @@ from
 ftn-entry
 ftp
 full-name
+fwmark
 garbage-collection
 gateway-address
 gateway-update-interval
@@ -798,6 +802,7 @@ peer-group
 peer-session-id
 peer-tunnel-id
 peers
+persistent-keepalive
 pfifo
 pfs
 ping
@@ -833,10 +838,12 @@ prefix-list
 prefix-list6
 prefix-only
 preprogram-suggested-label
+preshared-key
 primary
 priority
 priority-queue
 privacy
+private-key
 probability
 promiscuous
 propagate-release
@@ -941,6 +948,7 @@ role
 root
 round-robin
 route
+route-allowed-ips
 route-map
 route-reflector-client
 route-server-client
@@ -1153,6 +1161,7 @@ ubnt-discover
 ubnt-discover-server
 udapi-server
 udp
+ui-url
 unchanged
 unidirectional
 unifi-controller
@@ -1161,6 +1170,7 @@ unnumbered
 unprotected
 unsuppress-map
 up
+up-command
 update
 update-hour
 update-source
@@ -1218,6 +1228,7 @@ weight
 whitelist
 wins-server
 wins-servers
+wireguard
 wirelessmodem
 word
 wpad-url

@@ -155,6 +155,32 @@ firewall {
 /*                                 ^ punctuation.separator.ip.mask.edgeos */
 /*                                  ^^ constant.numeric.integer.edgeos */
 
+    allowed_ips 0.0.0.0/0, 2001:DB8:ABCD:12::, !192.168.1.0/24
+/*  ^^^^^^^^^^^ entity.other.attribute-name.edgeos */
+/*              ^^^^^^^ constant.numeric.integer.edgeos */
+/*                     ^ punctuation.separator.ip.mask.edgeos */
+/*                      ^ constant.numeric.integer.edgeos */
+/*                       ^ punctuation.separator.ip.list.edgeos */
+/*                         ^^^^^^^^^^^^^^^^^^ constant.numeric.integer.long.hex.edgeos */
+/*                                           ^ punctuation.separator.ip.list.edgeos */
+/*                                             ^ keyword.operator.edgeos */
+/*                                              ^^^^^^^^^^^ constant.numeric.integer.edgeos */
+/*                                                         ^ punctuation.separator.ip.mask.edgeos */
+/*                                                          ^^ constant.numeric.integer.edgeos */
+
+    allowed_ips 0.0.0.0/0, !192.168.1.0/24, 192
+/*  ^^^^^^^^^^^ entity.other.attribute-name.edgeos */
+/*              ^^^^^^^ constant.numeric.integer.edgeos */
+/*                     ^ punctuation.separator.ip.mask.edgeos */
+/*                      ^ constant.numeric.integer.edgeos */
+/*                       ^ punctuation.separator.ip.list.edgeos */
+/*                         ^ keyword.operator.edgeos */
+/*                          ^^^^^^^^^^^ constant.numeric.integer.edgeos */
+/*                                     ^ punctuation.separator.ip.mask.edgeos */
+/*                                      ^^ constant.numeric.integer.edgeos */
+/*                                        ^ invalid.illegal.stray-comma-separator.edgeos */
+/*                                          ^^^ invalid.illegal.ip.edgeos */
+
     mac 00:A1:B2:C3:D4:E5
 /*  ^^^ entity.name.tag.edgeos */
 /*      ^^^^^^^^^^^^^^^^^ constant.numeric.hex.edgeos */
