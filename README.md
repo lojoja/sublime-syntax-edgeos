@@ -1,6 +1,6 @@
 # SublimeEdgeOS
 
-_Version 1.1.5_
+_Version 1.1.6_
 
 [Sublime Text](https://www.sublimetext.com) syntax definitions for EdgeMax EdgeOS.
 
