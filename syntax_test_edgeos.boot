@@ -125,6 +125,11 @@ firewall {
 /*  ^^^^ entity.name.tag.edgeos */
 /*       ^^^^^^^^^^^^ constant.numeric.integer.edgeos */
 
+    ipv4_negate !192.168.0.10
+/*  ^^^^^^^^^^^ entity.other.attribute-name.edgeos */
+/*              ^ keyword.operator.edgeos */
+/*               ^^^^^^^^^^^^ constant.numeric.integer.edgeos */
+
     ipv4_mask 192.168.0.0/24
 /*  ^^^^^^^^^ entity.other.attribute-name.edgeos */
 /*            ^^^^^^^^^^^ constant.numeric.integer.edgeos */
@@ -134,6 +139,11 @@ firewall {
     ipv6 2001:DB8:ABCD:12::
 /*  ^^^^ entity.name.tag.edgeos */
 /*       ^^^^^^^^^^^^^^^^^^ constant.numeric.integer.long.hex.edgeos */
+
+    ipv6_negate !2001:DB8:ABCD:12::
+/*  ^^^^^^^^^^^ entity.other.attribute-name.edgeos */
+/*              ^ keyword.operator.edgeos */
+/*               ^^^^^^^^^^^^^^^^^^ constant.numeric.integer.long.hex.edgeos */
 
     ipv6_embed_ipv4 ::ffff:192.168.0.10
 /*  ^^^^^^^^^^^^^^^ entity.other.attribute-name.edgeos */
